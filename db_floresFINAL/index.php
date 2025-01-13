@@ -42,9 +42,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
                 echo "<td>".$row ['director']."</td>";
                 echo "<td>".$row ['year_release']."</td>";
                 echo "<td>".$row ['genre']."</td>";
-                echo "<td>"
-                . "<a href='editmovieview.php?id=" . $row['id'] . "'>Edit</a> | 
-                   <a href='deletemovie.php?id=" . $row['id'] . "'>Delete</a>"
+                echo "<td>".
+                    "<a href='editmovieview.php?id=" . $row['id'] . "'>Edit</a> | 
+                    <a href='deletemovie.php?id=" . $row['id'] . "'>Delete</a>"
                         . "</td>";
                 echo "</tr>";
             }
